@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc6eb6d7-fcb9-4c00-9b55-e133680ecf7d" name="Default Changelist" comment="实现三个服务提供者，使用ribbon做负载均衡">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-api/src/main/java/com/cy/springcloud/entities/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-api/target/classes/com/cy/springcloud/entities/Dept.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-api/target/microservicecloud-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/cy/springcloud/DeptConsumer80_App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/cy/springcloud/cfgbeans/ConfigBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/cy/springcloud/controller/DeptController_Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/target/classes/com/cy/springcloud/DeptConsumer80_App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/target/classes/com/cy/springcloud/cfgbeans/ConfigBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/target/classes/com/cy/springcloud/controller/DeptController_Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$" />
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/Library/Java/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="/Library/Java/apache-maven-3.5.4/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UNcWDfNVY6XAWUTRypccuCqjoK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservicecloud-provider-dept-8003/src/main/resources" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="org.mvnsearch.intellij.plugin.zookeeper.ui.ZkProjectConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cy.springcloud" />
+      <recent name="springcloud" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/microservicecloud-provider-dept-8003/src/main/resources" />
+      <recent name="$PROJECT_DIR$/microservicecloud-provider-dept-8002/src/main/resources" />
+      <recent name="$PROJECT_DIR$/microservicecloud-provider-dept-8003/src/main/java/com/cy/springcloud" />
+      <recent name="$PROJECT_DIR$/microservicecloud-provider-dept-8002/src/main/java/com/cy/springcloud" />
+      <recent name="$PROJECT_DIR$/microservicecloud-eureka-7003/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DeptConsumer80_App">
+    <configuration name="DeptConsumer80_App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservicecloud-consumer-dept-80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cy.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cy.springcloud.DeptConsumer80_App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeptProvider8001_App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservicecloud-provider-dept-8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cy.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cy.springcloud.DeptProvider8001_App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeptProvider8002_App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservicecloud-provider-dept-8002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cy.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cy.springcloud.DeptProvider8002_App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeptProvider8003_App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservicecloud-provider-dept-8003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cy.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cy.springcloud.DeptProvider8003_App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer7003_App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservicecloud-eureka-7003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cy.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cy.springcloud.EurekaServer7003_App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DeptConsumer80_App" />
+        <item itemvalue="Spring Boot.DeptProvider8001_App" />
+        <item itemvalue="Spring Boot.DeptProvider8002_App" />
+        <item itemvalue="Spring Boot.DeptProvider8003_App" />
+        <item itemvalue="Spring Boot.EurekaServer7003_App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc6eb6d7-fcb9-4c00-9b55-e133680ecf7d" name="Default Changelist" comment="" />
+      <created>1575106300325</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575106300325</updated>
+      <workItem from="1575106303907" duration="5903000" />
+      <workItem from="1575200524525" duration="1388000" />
+      <workItem from="1575223592570" duration="4034000" />
+      <workItem from="1575270965849" duration="9641000" />
+    </task>
+    <task id="LOCAL-00001" summary="eureka实现服务的注册与发现，ribbon实现负载均衡">
+      <created>1575297123207</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575297123207</updated>
+    </task>
+    <task id="LOCAL-00002" summary="eureka实现服务注册中心">
+      <created>1575297296543</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575297296543</updated>
+    </task>
+    <task id="LOCAL-00003" summary="eureka实现服务注册中心">
+      <created>1575297315822</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575297315822</updated>
+    </task>
+    <task id="LOCAL-00004" summary="实现三个服务提供者，使用ribbon做负载均衡">
+      <created>1575297381838</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575297381838</updated>
+    </task>
+    <task id="LOCAL-00005" summary="eureka服务注册中心">
+      <created>1575297410607</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575297410607</updated>
+    </task>
+    <task id="LOCAL-00006" summary="实现三个服务提供者，使用ribbon做负载均衡">
+      <created>1575297424800</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575297424800</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="eureka实现服务的注册与发现，ribbon实现负载均衡" />
+    <MESSAGE value="eureka实现服务注册中心" />
+    <MESSAGE value="eureka服务注册中心" />
+    <MESSAGE value="实现三个服务提供者，使用ribbon做负载均衡" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现三个服务提供者，使用ribbon做负载均衡" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575293111159">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1575293111159" />
+    <state x="91" y="52" key="CommitChangelistDialog2" timestamp="1575297496450">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="91" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1575297496450" />
+    <state x="566" y="350" key="Github.ShareDialog" timestamp="1575296530251">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="566" y="350" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1575296530251" />
+    <state x="277" y="217" key="Github.UntrackedFilesDialog" timestamp="1575296857848">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="277" y="217" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1575296857848" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1575294427382">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575294427382" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1575294427381">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1575294427381" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1575294427380">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1575294427380" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1575294427381">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1575294427381" />
+    <state width="1398" height="244" key="GridCell.Tab.1.bottom" timestamp="1575294427383">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575294427383" />
+    <state width="1398" height="244" key="GridCell.Tab.1.center" timestamp="1575294427382">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1575294427382" />
+    <state width="1398" height="244" key="GridCell.Tab.1.left" timestamp="1575294427382">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1575294427382" />
+    <state width="1398" height="244" key="GridCell.Tab.1.right" timestamp="1575294427383">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1575294427383" />
+    <state x="308" y="192" key="IDE.errors.dialog" timestamp="1575269453195">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="308" y="192" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" timestamp="1575269453195" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1575297506496">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1575297506496" />
+    <state x="181" y="135" width="1064" height="605" key="new project wizard" timestamp="1575292199708">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="181" y="135" width="1064" height="605" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1575292199708" />
+  </component>
+  <component name="ZooKeeperConfig">
+    <option name="host" value="127.0.0.1" />
+    <option name="port" value="2181" />
+    <option name="charset" value="UTF-8" />
+    <option name="whitePaths" value="/" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
